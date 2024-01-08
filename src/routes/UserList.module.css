@@ -1,0 +1,44 @@
+.title {
+    text-align: center;
+    margin: 30px;
+    font-size: 1.8em;
+    color: #6c757d; /* Medium Gray */
+    text-transform: uppercase;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card {
+    margin: 20px;
+    border: 1px solid #ced4da; /* Light Gray */
+    border-radius: 10px;
+    background: #f8f9fa; /* Light Grayish Blue */
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease-in-out;
+}
+
+.card:hover {
+    cursor: pointer;
+    background: #e2e6ea; /* Lighter Grayish Blue on Hover */
+}
+
+.link {
+    padding: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    color: #495057; /* Dark Gray */
+    font-weight: bold;
+    background: #e9ecef; /* Light Gray */
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+}
+
+.link:hover {
+    background: #ced4da; /* Slightly Darker Gray on Hover */
+    color: #495057;
+}
